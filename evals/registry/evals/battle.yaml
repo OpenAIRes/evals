@@ -5,5 +5,5 @@ battles:
 battles.test.v1:
   args:
     modelgraded_spec: battle
-    samples_jsonl: /Users/janvotava/Desktop/evals/examples/../evals/registry/data/dataset/samples.jsonl
+    samples_jsonl: /Users/janvotava/Desktop/evals/examples/../evals/registry/data/battles/samples.jsonl
   class: evals.elsuite.modelgraded.classify:ModelBasedClassify
