@@ -1,0 +1,9 @@
+battles:
+  id: battles.test.v1
+  metrics:
+  - accuracy
+battles.test.v1:
+  args:
+    modelgraded_spec: battle
+    samples_jsonl: /Users/janvotava/Desktop/evals/examples/../evals/registry/data/dataset/samples.jsonl
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
