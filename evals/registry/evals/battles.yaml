@@ -4,6 +4,7 @@ battles:
   - accuracy
 battles.test.v1:
   args:
+    eval_type: cot_classify
     modelgraded_spec: battle
-    samples_jsonl: /Users/janvotava/Desktop/evals/examples/../evals/registry/data/battles/samples.jsonl
+    samples_jsonl: battles/samples.jsonl
   class: evals.elsuite.modelgraded.classify:ModelBasedClassify
