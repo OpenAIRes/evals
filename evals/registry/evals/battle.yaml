@@ -1,0 +1,10 @@
+battle:
+  id: battle.test.v1
+  metrics:
+  - accuracy
+battle.test.v1:
+  args:
+    eval_type: cot_classify
+    modelgraded_spec: battle
+    samples_jsonl: battle/samples.jsonl
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
